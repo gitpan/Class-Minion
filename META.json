@@ -1,0 +1,73 @@
+{
+   "abstract" : "Spartans! What is I<your> API?",
+   "author" : [
+      "Arun Prasaad <arunbear@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 5.025, Dist::Milla version v1.0.8, CPAN::Meta::Converter version 2.142690",
+   "license" : [
+      "gpl_3"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Class-Minion",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build::Tiny" : "0.039"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Dist::Milla" : "v1.0.8",
+            "Test::Pod" : "1.41"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Exception::Class" : "1.38",
+            "List::MoreUtils" : "0.33",
+            "Package::Stash" : "0.36",
+            "Params::Validate" : "1.10",
+            "Sub::Name" : "0.09",
+            "perl" : "5.008005"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::Lib" : "0.002",
+            "Test::Most" : "0.34"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/arunbear/Class-Minion/issues"
+      },
+      "homepage" : "https://github.com/arunbear/Class-Minion",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/arunbear/Class-Minion.git",
+         "web" : "https://github.com/arunbear/Class-Minion"
+      }
+   },
+   "version" : "0.000002",
+   "x_contributors" : [
+      "Arun Prasaad <arunbear@gmail.com>",
+      "arunbear <arunbear@gmail.com>"
+   ]
+}
+
